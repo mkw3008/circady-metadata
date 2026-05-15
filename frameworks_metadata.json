@@ -830,8 +830,8 @@
     },
     {
       "id": "wein_um_5",
-      "name_de": "Wein um 5",
-      "name_en": "Wine at 5",
+      "name_de": "Wein@5",
+      "name_en": "Wine@5",
       "description_de": "Im Blue-Zones-Konzept beobachtet: mäßiger Rotweinkonsum, gemeinsam mit anderen, früh abends. Hinweis: Die WHO sieht keinen sicheren Konsum-Schwellenwert für Alkohol; aktuelle Evidenz spricht gegen Alkohol als Longevity-Praktik.",
       "description_en": "Observed in the Blue Zones concept: moderate red wine consumption, with others, early evening. Note: The WHO states that no level of alcohol consumption is safe; current evidence does not support alcohol as a longevity practice.",
       "category": "nutrition",
