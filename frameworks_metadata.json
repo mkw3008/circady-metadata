@@ -1,6 +1,6 @@
 {
   "schema_version": "4.1.0",
-  "data_version": "4.1.0",
+  "data_version": "4.1.2",
   "data_updated": "2026-05-15",
   "name": "circady-frameworks",
   "description_de": "Single source of truth für circady Frameworks-Tab. Treibt App-Browse-Experience und Visualisierungen.",
@@ -510,8 +510,8 @@
       "id": "emotionale_gesundheit",
       "name_de": "Emotionale Gesundheit",
       "name_en": "Emotional health",
-      "description_de": "Therapie, emotionale Selbstkenntnis, Sinn. Attias 4. Säule.",
-      "description_en": "Therapy, emotional self-knowledge, purpose. Attia's 4th pillar.",
+      "description_de": "Attias 4. Säule: emotionale Selbstkenntnis, Sinn, professionelle therapeutische Begleitung. Bei seelischer Belastung oder Verdacht auf psychische Erkrankung Hausarzt, Psychotherapeut:in oder Psychiater:in aufsuchen.",
+      "description_en": "Attia's 4th pillar: emotional self-knowledge, purpose, professional therapeutic support. For mental health concerns or suspected psychiatric conditions, consult a physician, psychotherapist, or psychiatrist.",
       "category": "mental",
       "secondary_categories": [],
       "timing": {
@@ -750,8 +750,8 @@
       "id": "kalorienrestriktion",
       "name_de": "Kalorienrestriktion",
       "name_en": "Caloric restriction",
-      "description_de": "Reduktion der Energiezufuhr um 10–25 % unter Erhaltungsbedarf.",
-      "description_en": "10–25% reduction in energy intake below maintenance.",
+      "description_de": "Reduktion der Energiezufuhr um 10–25 % unter Erhaltungsbedarf. Kontraindikationen: Schwangerschaft, Stillzeit, Essstörungs-Historie, Untergewicht (BMI < 18,5), Kinder und Jugendliche, Gebrechlichkeit im Alter. Vor Beginn ärztliche oder ernährungsmedizinische Abklärung empfohlen.",
+      "description_en": "10–25% reduction in energy intake below maintenance. Contraindications: pregnancy, breastfeeding, history of eating disorders, underweight (BMI < 18.5), children and adolescents, frailty in older age. Medical or dietary clearance recommended before starting.",
       "category": "nutrition",
       "secondary_categories": [
         "molecules"
@@ -832,8 +832,8 @@
       "id": "wein_um_5",
       "name_de": "Wein um 5",
       "name_en": "Wine at 5",
-      "description_de": "Mäßiger Rotweinkonsum mit Freunden, früh abends.",
-      "description_en": "Moderate red wine with friends, early evening.",
+      "description_de": "Im Blue-Zones-Konzept beobachtet: mäßiger Rotweinkonsum, gemeinsam mit anderen, früh abends. Hinweis: Die WHO sieht keinen sicheren Konsum-Schwellenwert für Alkohol; aktuelle Evidenz spricht gegen Alkohol als Longevity-Praktik.",
+      "description_en": "Observed in the Blue Zones concept: moderate red wine consumption, with others, early evening. Note: The WHO states that no level of alcohol consumption is safe; current evidence does not support alcohol as a longevity practice.",
       "category": "nutrition",
       "secondary_categories": [
         "social"
@@ -917,8 +917,8 @@
       "id": "scheinfasten",
       "name_de": "Scheinfasten (FMD)",
       "name_en": "Fasting-mimicking diet",
-      "description_de": "5-Tages-Protokoll mit stark reduzierter Kalorienzufuhr, 2–4× pro Jahr.",
-      "description_en": "5-day protocol with strongly reduced caloric intake, 2–4× per year.",
+      "description_de": "5-Tages-Protokoll mit stark reduzierter Kalorienzufuhr, 2–4× pro Jahr. Kontraindikationen: Schwangerschaft, Stillzeit, Diabetes (insbesondere unter Insulin- oder Sulfonylharnstoff-Therapie), Essstörungs-Historie, Untergewicht (BMI < 18,5), Kinder und Jugendliche. Vor Beginn ärztliche Abklärung erforderlich.",
+      "description_en": "5-day protocol with strongly reduced caloric intake, 2–4× per year. Contraindications: pregnancy, breastfeeding, diabetes (especially under insulin or sulfonylurea therapy), history of eating disorders, underweight (BMI < 18.5), children and adolescents. Medical clearance required before starting.",
       "category": "nutrition",
       "secondary_categories": [
         "molecules"
@@ -1002,8 +1002,8 @@
       "id": "nad_plus",
       "name_de": "NAD+",
       "name_en": "NAD+ precursors",
-      "description_de": "NMN oder NR zur NAD+-Erhöhung.",
-      "description_en": "NMN or NR for NAD+ elevation.",
+      "description_de": "Sammelbegriff für NAD+-Vorstufen (z.B. NMN, NR), in Longevity-Protokollen eingesetzt. Kein EFSA-zugelassener Health Claim.",
+      "description_en": "Umbrella term for NAD+ precursors (e.g., NMN, NR), used in longevity protocols. No FDA-approved health claim.",
       "category": "molecules",
       "secondary_categories": [],
       "timing": {
@@ -1015,8 +1015,8 @@
       "id": "nmn",
       "name_de": "NMN",
       "name_en": "NMN",
-      "description_de": "Nicotinamid-Mononukleotid — NAD+-Vorläufer.",
-      "description_en": "Nicotinamide mononucleotide — NAD+ precursor.",
+      "description_de": "Nicotinamid-Mononukleotid. Im Longevity-Kontext erforscht. EU: kein zugelassener Novel-Food-Status.",
+      "description_en": "Nicotinamide mononucleotide. Studied in longevity research. US: classified as an investigational new drug by the FDA since 2022.",
       "category": "molecules",
       "secondary_categories": [],
       "timing": {
@@ -1028,8 +1028,8 @@
       "id": "resveratrol",
       "name_de": "Resveratrol",
       "name_en": "Resveratrol",
-      "description_de": "Sirtuin-Aktivator, mit fettreicher Mahlzeit.",
-      "description_en": "Sirtuin activator, taken with high-fat meal.",
+      "description_de": "Polyphenol. In Longevity-Protokollen zur Sirtuin-Modulation diskutiert; kein EFSA-zugelassener Health Claim. Üblicherweise mit fettreicher Mahlzeit eingenommen.",
+      "description_en": "Polyphenol. Discussed in longevity protocols for proposed sirtuin modulation; no FDA-approved health claim. Typically taken with a fat-containing meal.",
       "category": "molecules",
       "secondary_categories": [],
       "timing": {
@@ -1041,8 +1041,8 @@
       "id": "substanzverzicht",
       "name_de": "Substanzverzicht",
       "name_en": "Avoid harmful substances",
-      "description_de": "Kein Tabak, minimal Alkohol, keine schädlichen Drogen.",
-      "description_en": "No tobacco, minimal alcohol, no harmful drugs.",
+      "description_de": "Verzicht auf Tabak und schädliche Drogen. Hinweis zu Alkohol: Die WHO sieht keinen sicheren Konsum-Schwellenwert — je geringer der Konsum, desto besser.",
+      "description_en": "Avoidance of tobacco and harmful drugs. Note on alcohol: The WHO states that no level of consumption is safe — less is better.",
       "category": "molecules",
       "secondary_categories": [
         "sleep"
@@ -1056,8 +1056,8 @@
       "id": "kreatin",
       "name_de": "Kreatin",
       "name_en": "Creatine",
-      "description_de": "3–5 g pro Tag, Kreatinmonohydrat. Sicheres Hypertrophie-Supplement.",
-      "description_en": "3–5 g daily, creatine monohydrate. Safe hypertrophy supplement.",
+      "description_de": "3–5 g pro Tag, Kreatinmonohydrat. EU: EFSA-zugelassener Health Claim für körperliche Leistung bei Schnellkrafttraining.",
+      "description_en": "3–5 g daily, creatine monohydrate. US: classified as GRAS (Generally Recognized as Safe) by the FDA.",
       "category": "molecules",
       "secondary_categories": [],
       "timing": {
