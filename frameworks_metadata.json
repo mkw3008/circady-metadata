@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0.0",
-  "data_version": "5.3.0",
+  "data_version": "5.3.1",
   "data_updated": "2026-05-16",
   "name": "circady-frameworks",
   "description_de": "Single source of truth für circady Frameworks-Tab. Treibt App-Browse-Experience und Visualisierungen.",
@@ -1135,7 +1135,7 @@
       "name_en": "Wine at 5",
       "description_de": "Im Blue-Zones-Konzept beobachtet: mäßiger Rotweinkonsum, gemeinsam mit anderen, früh abends. Hinweis: Die WHO sieht keinen sicheren Konsum-Schwellenwert für Alkohol; aktuelle Evidenz spricht gegen Alkohol als Longevity-Praktik.",
       "description_en": "Observed in the Blue Zones concept: moderate red wine consumption, with others, early evening. Note: The WHO states that no level of alcohol consumption is safe; current evidence does not support alcohol as a longevity practice.",
-      "category": "nutrition",
+      "category": "social",
       "pillar_contributions": {
         "movement": 0,
         "mental": 0,
@@ -1155,7 +1155,7 @@
       "name_en": "Shared meals",
       "description_de": "Mahlzeiten mit Familie oder Freunden statt allein.",
       "description_en": "Meals with family or friends instead of alone.",
-      "category": "nutrition",
+      "category": "social",
       "pillar_contributions": {
         "movement": 0,
         "mental": 0,
