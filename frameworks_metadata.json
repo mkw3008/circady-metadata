@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0.0",
-  "data_version": "5.0.0",
+  "data_version": "5.1.0",
   "data_updated": "2026-05-16",
   "name": "circady-frameworks",
   "description_de": "Single source of truth für circady Frameworks-Tab. Treibt App-Browse-Experience und Visualisierungen.",
@@ -602,8 +602,8 @@
       "id": "herzratenvariabilitaet",
       "name_de": "Herzratenvariabilität",
       "name_en": "Heart rate variability",
-      "description_de": "HRV-Training zur autonomen Balance.",
-      "description_en": "HRV training for autonomic balance.",
+      "description_de": "Tägliche HRV-Erfassung morgens nach dem Aufwachen über ein Wearable (z. B. Oura, Whoop, Garmin). Bei niedrigen Werten oder hohem Stress: 5 Minuten Resonanzatmung – 6 Atemzüge pro Minute (5 sek einatmen, 5 sek ausatmen), aufrechte Sitzhaltung, ruhige Umgebung.",
+      "description_en": "Daily HRV check in the morning after waking using a wearable (e.g. Oura, Whoop, Garmin). On low values or high stress: 5 minutes of resonance breathing – 6 breaths per minute (5s in, 5s out), upright sitting position, quiet environment.",
       "category": "mental",
       "pillar_contributions": {
         "movement": 0,
@@ -615,16 +615,16 @@
       },
       "timing": {
         "cycle_kind": "continuous",
-        "evidence": "n/a",
-        "duration_min": 10
+        "duration_min": 5,
+        "evidence": "researched"
       }
     },
     {
       "id": "emotionale_gesundheit",
       "name_de": "Emotionale Gesundheit",
       "name_en": "Emotional health",
-      "description_de": "Attias 4. Säule: emotionale Selbstkenntnis, Sinn, professionelle therapeutische Begleitung. Bei seelischer Belastung oder Verdacht auf psychische Erkrankung Hausarzt, Psychotherapeut:in oder Psychiater:in aufsuchen.",
-      "description_en": "Attia's 4th pillar: emotional self-knowledge, purpose, professional therapeutic support. For mental health concerns or suspected psychiatric conditions, consult a physician, psychotherapist, or psychiatrist.",
+      "description_de": "Wöchentliche 50-Minuten-Routine zur emotionalen Selbstkenntnis: Journaling über aktuelle Belastungen, Sinnfragen, Beziehungsdynamiken – oder Sitzung bei Therapeut:in. Bei seelischer Belastung oder Verdacht auf psychische Erkrankung Hausarzt, Psychotherapeut:in oder Psychiater:in aufsuchen.",
+      "description_en": "Weekly 50-minute routine for emotional self-awareness: journaling about current burdens, meaning, and relationship dynamics – or a session with a therapist. For mental distress or suspected mental illness, consult a doctor, therapist, or psychiatrist.",
       "category": "mental",
       "pillar_contributions": {
         "movement": 0,
@@ -710,8 +710,8 @@
       "id": "schlaftracking",
       "name_de": "Schlaf-Tracking",
       "name_en": "Sleep tracking",
-      "description_de": "Quantitatives Tracking via Wearable.",
-      "description_en": "Quantitative tracking via wearable.",
+      "description_de": "Schlaf-Wearable durchgehend tragen (Smartwatch, Ring, Brustgurt). Jeden Morgen nach dem Aufwachen: Schlafdauer, Tiefschlaf- und REM-Anteile, HRV sowie die Trends der letzten 7 Tage prüfen.",
+      "description_en": "Wear a sleep tracker continuously (smartwatch, ring, chest strap). Every morning after waking: review sleep duration, deep and REM proportions, HRV, and the past 7-day trends.",
       "category": "sleep",
       "pillar_contributions": {
         "movement": 0,
@@ -723,8 +723,7 @@
       },
       "timing": {
         "cycle_kind": "continuous",
-        "evidence": "n/a",
-        "duration_min": 480
+        "evidence": "n/a"
       }
     },
     {
@@ -794,8 +793,8 @@
       "id": "right_tribe",
       "name_de": "Right Tribe",
       "name_en": "Right tribe",
-      "description_de": "Sich mit Menschen umgeben, die gesunde Gewohnheiten leben.",
-      "description_en": "Surround yourself with people living healthy habits.",
+      "description_de": "Sich bewusst mit Menschen umgeben, die gesunde Gewohnheiten leben. Konkret: wöchentlich mindestens eine gemeinsame Aktivität mit einem solchen Menschen – Sport, Mahlzeit, längeres Gespräch.",
+      "description_en": "Consciously surround yourself with people who live healthy habits. Concretely: at least one weekly shared activity with such a person – sport, meal, longer conversation.",
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
@@ -814,8 +813,8 @@
       "id": "familie_zuerst",
       "name_de": "Familie zuerst",
       "name_en": "Family first",
-      "description_de": "Eltern, Partner, Kinder priorisieren.",
-      "description_en": "Prioritize parents, partner, children.",
+      "description_de": "Eltern, Partner:in und Kinder als oberste Lebenspriorität. Konkret: tägliche ungeteilte Familienzeit (mindestens eine gemeinsame Mahlzeit ohne Bildschirme), wöchentliches Familienritual (Spaziergang, Spielabend, Ausflug).",
+      "description_en": "Parents, partner, and children as top life priority. Concretely: daily undivided family time (at least one shared meal without screens), weekly family ritual (walk, game night, outing).",
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
@@ -834,8 +833,8 @@
       "id": "belong_glaube",
       "name_de": "Belong (Glaube)",
       "name_en": "Belong (faith)",
-      "description_de": "Glaubensgemeinschaft oder Sinngemeinschaft.",
-      "description_en": "Faith community or meaning community.",
+      "description_de": "Aktive Mitgliedschaft in einer Glaubens- oder Sinngemeinschaft. Konkret: regelmäßige (wöchentliche) Teilnahme an Gottesdienst, Meditationskreis, Studiengruppe oder einer ehrenamtlichen Initiative.",
+      "description_en": "Active membership in a faith or purpose community. Concretely: regular (weekly) participation in service, meditation circle, study group, or volunteer initiative.",
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
@@ -874,8 +873,8 @@
       "id": "love_more",
       "name_de": "Love More",
       "name_en": "Love more",
-      "description_de": "Intentionale, ausgedrückte Zuneigung.",
-      "description_en": "Intentional, expressed affection.",
+      "description_de": "Mindestens eine bewusste, ausgedrückte Geste der Zuneigung pro Tag – Worte, Berührung, kleine Aufmerksamkeit oder ungeteilte Zeit für jemanden, der dir wichtig ist.",
+      "description_en": "At least one conscious, expressed gesture of affection per day – words, touch, small attention, or undivided time for someone important to you.",
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
@@ -886,16 +885,19 @@
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "recovery_hours_min": 12,
+        "sweet_spot_hours": 12,
+        "frequency_per_week_recommended": 7,
+        "evidence": "estimated"
       }
     },
     {
       "id": "unterstuetzung",
       "name_de": "Unterstützung",
       "name_en": "Support network",
-      "description_de": "Aktive Unterstützung geben und annehmen.",
-      "description_en": "Actively giving and receiving support.",
+      "description_de": "Aktiv Unterstützung geben und annehmen. Konkret: einmal wöchentlich um konkrete Hilfe bitten oder Hilfe anbieten – kein Aufschub, kein falscher Stolz.",
+      "description_en": "Actively give and receive support. Concretely: once a week, ask for concrete help or offer help – no procrastination, no false pride.",
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
@@ -914,8 +916,8 @@
       "id": "beziehungen",
       "name_de": "Tiefe Beziehungen",
       "name_en": "Deep relationships",
-      "description_de": "In wenige Beziehungen investieren, statt viele oberflächliche.",
-      "description_en": "Invest in few relationships rather than many shallow ones.",
+      "description_de": "In wenige tiefe Beziehungen investieren statt viele oberflächliche. Konkret: monatlich mindestens drei längere Gespräche (1 h+) mit engen Freund:innen oder Familie.",
+      "description_en": "Invest in few deep relationships rather than many superficial ones. Concretely: at least three longer conversations (1h+) per month with close friends or family.",
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
@@ -934,8 +936,8 @@
       "id": "sozialkontakte",
       "name_de": "Soziale Kontakte",
       "name_en": "Social contact",
-      "description_de": "Regelmäßige zwischenmenschliche Interaktion.",
-      "description_en": "Regular interpersonal interaction.",
+      "description_de": "Regelmäßige zwischenmenschliche Interaktion jenseits von Smalltalk. Konkret: täglich mindestens ein substanzielles Gespräch (10 Minuten+, ohne Bildschirme dazwischen).",
+      "description_en": "Regular interpersonal interaction beyond small talk. Concretely: at least one substantive conversation per day (10 min+, no screens in between).",
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
@@ -1074,8 +1076,8 @@
       "id": "achtzig_prozent",
       "name_de": "80-%-Regel",
       "name_en": "80% rule",
-      "description_de": "Hara hachi bu — aufhören bei 80 % Sättigung.",
-      "description_en": "Hara hachi bu — stop at 80% satiety.",
+      "description_de": "Hara hachi bu – bei jeder Mahlzeit bewusst bei ~80 % Sättigung aufhören, nicht bei 100 %. Tagesabschluss: konsequent umgesetzt? Häkchen setzen.",
+      "description_en": "Hara hachi bu – consciously stop eating at ~80 % fullness at every meal, not 100 %. End of day: consistently applied? Tick off.",
       "category": "nutrition",
       "pillar_contributions": {
         "movement": 0,
@@ -1086,8 +1088,11 @@
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "recovery_hours_min": 12,
+        "sweet_spot_hours": 12,
+        "frequency_per_week_recommended": 7,
+        "evidence": "estimated"
       }
     },
     {
@@ -1400,8 +1405,8 @@
       "id": "substanzverzicht",
       "name_de": "Substanzverzicht",
       "name_en": "Avoid harmful substances",
-      "description_de": "Verzicht auf Tabak und schädliche Drogen. Hinweis zu Alkohol: Die WHO sieht keinen sicheren Konsum-Schwellenwert — je geringer der Konsum, desto besser.",
-      "description_en": "Avoidance of tobacco and harmful drugs. Note on alcohol: The WHO states that no level of consumption is safe — less is better.",
+      "description_de": "Vollständiger Verzicht auf Tabak und schädliche Drogen als kontinuierliche Lebensstil-Entscheidung. Bei Alkohol: die WHO sieht keinen sicheren Schwellwert – je geringer der Konsum, desto besser.",
+      "description_en": "Complete avoidance of tobacco and harmful drugs as a continuous lifestyle decision. On alcohol: the WHO states there is no safe threshold – the lower the consumption, the better.",
       "category": "molecules",
       "pillar_contributions": {
         "movement": 0,
