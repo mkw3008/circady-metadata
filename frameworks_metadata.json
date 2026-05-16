@@ -203,7 +203,7 @@
     },
     {
       "id": "muscle_building_1",
-      "name_short_de": "Muskelaufbau",
+      "name_short_de": "Muskelaufbau 1",
       "name_short_en": "Muscle Building",
       "name_full_de": "Muskelaufbau 1 — Ganzkörper",
       "name_full_en": "Muscle building 1 — Full body",
@@ -220,7 +220,7 @@
     },
     {
       "id": "muscle_building_2",
-      "name_short_de": "Muskelaufbau",
+      "name_short_de": "Muskelaufbau 2",
       "name_short_en": "Muscle Building",
       "name_full_de": "Muskelaufbau 2 — 2er-Split",
       "name_full_en": "Muscle building 2 — 2-day split",
@@ -237,7 +237,7 @@
     },
     {
       "id": "muscle_building_3",
-      "name_short_de": "Muskelaufbau",
+      "name_short_de": "Muskelaufbau 3",
       "name_short_en": "Muscle Building",
       "name_full_de": "Muskelaufbau 3 — 3er-Split",
       "name_full_en": "Muscle building 3 — 3-day split",
