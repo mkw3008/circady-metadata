@@ -1,7 +1,7 @@
 {
-  "schema_version": "4.1.0",
-  "data_version": "4.2.0",
-  "data_updated": "2026-05-15",
+  "schema_version": "5.0.0",
+  "data_version": "5.0.0",
+  "data_updated": "2026-05-16",
   "name": "circady-frameworks",
   "description_de": "Single source of truth für circady Frameworks-Tab. Treibt App-Browse-Experience und Visualisierungen.",
   "description_en": "Single source of truth for circady's Frameworks tab. Drives the in-app browse experience and visualizations.",
@@ -202,50 +202,16 @@
       "note_en": "Not activities — biological aging mechanisms. Reverse-lookup in the app's Frameworks tab."
     },
     {
-      "id": "muscle_building_1",
-      "name_short_de": "Muskelaufbau 1",
-      "name_short_en": "Muscle Building 1",
-      "name_full_de": "Muskelaufbau-Training 1",
-      "name_full_en": "Muscle-building training 1",
-      "subtitle_de": "Ganzkörper-Training",
-      "subtitle_en": "Full-body training",
-      "source": "Sportwissenschaftliche Standardprinzipien",
+      "id": "muscle_building",
+      "name_short_de": "Muskelaufbau",
+      "name_short_en": "Muscle Building",
+      "name_full_de": "Muskelaufbau-Training",
+      "name_full_en": "Muscle-building training",
+      "subtitle_de": "Hypertrophie — exemplarisches Trainings-Framework",
+      "subtitle_en": "Hypertrophy — exemplary training framework",
+      "source": "Hypertrophie-Standardprinzipien / ENG Coach 2er-Split",
       "kind": "exemplary",
       "order": 9,
-      "palette": {
-        "fill": "FAEEDA",
-        "border": "854F0B",
-        "text": "633806"
-      }
-    },
-    {
-      "id": "muscle_building_2",
-      "name_short_de": "Muskelaufbau 2",
-      "name_short_en": "Muscle Building 2",
-      "name_full_de": "Muskelaufbau-Training 2",
-      "name_full_en": "Muscle-building training 2",
-      "subtitle_de": "2er-Split — Push+Bauch / Pull+Beine",
-      "subtitle_en": "2-day split — Push+Abs / Pull+Legs",
-      "source": "Sportwissenschaftliche Standardprinzipien / ENG Coach 2er-Split",
-      "kind": "exemplary",
-      "order": 10,
-      "palette": {
-        "fill": "FAEEDA",
-        "border": "854F0B",
-        "text": "633806"
-      }
-    },
-    {
-      "id": "muscle_building_3",
-      "name_short_de": "Muskelaufbau 3",
-      "name_short_en": "Muscle Building 3",
-      "name_full_de": "Muskelaufbau-Training 3",
-      "name_full_en": "Muscle-building training 3",
-      "subtitle_de": "3er-Split — Push / Pull / Legs",
-      "subtitle_en": "3-day split — Push / Pull / Legs",
-      "source": "Sportwissenschaftliche Standardprinzipien",
-      "kind": "exemplary",
-      "order": 11,
       "palette": {
         "fill": "FAEEDA",
         "border": "854F0B",
@@ -261,7 +227,14 @@
       "description_de": "Progressive Belastungssteigerung mit Hanteln, Maschinen oder Körpergewicht.",
       "description_en": "Progressive overload with dumbbells, machines, or bodyweight.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 80,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 60,
@@ -278,7 +251,14 @@
       "description_de": "Hochintensives Intervalltraining zur kardiovaskulären und mitochondrialen Anpassung.",
       "description_en": "High-intensity interval training for cardiovascular and mitochondrial adaptation.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 75,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 20,
@@ -295,9 +275,14 @@
       "description_de": "Mobilität, Gleichgewicht, Gelenkintegrität, Verletzungsprävention.",
       "description_en": "Mobility, balance, joint integrity, injury prevention.",
       "category": "movement",
-      "secondary_categories": [
-        "mental"
-      ],
+      "pillar_contributions": {
+        "movement": 60,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 15,
@@ -314,7 +299,14 @@
       "description_de": "Aerobes Training an der Laktatschwelle. Mitochondriale Effizienz.",
       "description_en": "Aerobic training at lactate threshold. Mitochondrial efficiency.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 75,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 60,
@@ -331,7 +323,14 @@
       "description_de": "Bewegung durch Alltag — Gartenarbeit, Treppen, kein Auto-Reflex.",
       "description_en": "Movement integrated into daily life — gardening, stairs, walking instead of driving.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 50,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
@@ -345,7 +344,14 @@
       "description_de": "Niedrig-intensives, regelmäßiges Gehen.",
       "description_en": "Low-intensity, regular walking.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 30,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 30,
@@ -362,7 +368,14 @@
       "description_de": "Sanfte Aktivität jenseits von Spazieren — leichtes Radeln, Schwimmen.",
       "description_en": "Gentle activity beyond walking — easy cycling, swimming.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 35,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 30,
@@ -379,9 +392,14 @@
       "description_de": "Asanas, Pranayama, Mind-Body-Integration.",
       "description_en": "Asanas, pranayama, mind-body integration.",
       "category": "movement",
-      "secondary_categories": [
-        "mental"
-      ],
+      "pillar_contributions": {
+        "movement": 55,
+        "mental": 50,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 45,
@@ -398,7 +416,14 @@
       "description_de": "150 min moderate oder 75 min intensive Bewegung pro Woche (ACLM-Leitlinie).",
       "description_en": "150 min moderate or 75 min vigorous activity per week (ACLM guideline).",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 60,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 30,
@@ -415,7 +440,14 @@
       "description_de": "Tag A — Brust (Flachbank, Schrägbank, Butterfly), Schulter (Drücken, Seitheben), Trizeps, Bauch. 50–60 min, Satzpause 90s.",
       "description_en": "Day A — Chest (flat/incline press, butterfly), Shoulders (press, lateral raise), Triceps, Abs. 50–60 min, 90s rest.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 75,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 55,
@@ -432,7 +464,14 @@
       "description_de": "Tag B — Beine (Beinstrecken, Beinpressen, Beincurls), Waden, Rücken (Latziehen, Rudern, Hyperextensions), Bizeps. 50–60 min.",
       "description_en": "Day B — Legs (extensions, press, curls), Calves, Back (lat pull, rows, hyperextensions), Biceps. 50–60 min.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 75,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 55,
@@ -449,7 +488,14 @@
       "description_de": "Drücken: Brust, Schultern, Trizeps. Schwerpunkt auf Mehrgelenksübungen.",
       "description_en": "Push: chest, shoulders, triceps. Focus on compound movements.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 75,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 50,
@@ -466,7 +512,14 @@
       "description_de": "Ziehen: Rücken, Bizeps, hintere Schulter.",
       "description_en": "Pull: back, biceps, rear delts.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 75,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 50,
@@ -483,7 +536,14 @@
       "description_de": "Beintraining: Quadrizeps, Hamstrings, Glutes, Waden, Bauch.",
       "description_en": "Leg day: quads, hamstrings, glutes, calves, abs.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 75,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 60,
@@ -500,7 +560,14 @@
       "description_de": "Alle großen Muskelgruppen pro Einheit. Ideal für Einsteiger oder niedrige Frequenz.",
       "description_en": "All major muscle groups per session. Ideal for beginners or low frequency.",
       "category": "movement",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 70,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 60,
@@ -517,7 +584,14 @@
       "description_de": "Achtsamkeits- oder konzentrative Praxis.",
       "description_en": "Mindfulness or concentrative practice.",
       "category": "mental",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 75,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
@@ -531,9 +605,14 @@
       "description_de": "HRV-Training zur autonomen Balance.",
       "description_en": "HRV training for autonomic balance.",
       "category": "mental",
-      "secondary_categories": [
-        "sleep"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 50,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
@@ -547,7 +626,14 @@
       "description_de": "Attias 4. Säule: emotionale Selbstkenntnis, Sinn, professionelle therapeutische Begleitung. Bei seelischer Belastung oder Verdacht auf psychische Erkrankung Hausarzt, Psychotherapeut:in oder Psychiater:in aufsuchen.",
       "description_en": "Attia's 4th pillar: emotional self-knowledge, purpose, professional therapeutic support. For mental health concerns or suspected psychiatric conditions, consult a physician, psychotherapist, or psychiatrist.",
       "category": "mental",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 85,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 50,
@@ -564,7 +650,14 @@
       "description_de": "Aktive Stress-Downregulation — Naps, Pausen, Natur, Gebet.",
       "description_en": "Active stress downregulation — naps, breaks, nature, prayer.",
       "category": "mental",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 60,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
@@ -578,7 +671,14 @@
       "description_de": "Bewusste Atemtechniken zur Regulation.",
       "description_en": "Conscious breathing techniques for regulation.",
       "category": "mental",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 50,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
@@ -592,7 +692,14 @@
       "description_de": "Konsistenter Schlaf-Wach-Rhythmus.",
       "description_en": "Consistent sleep-wake rhythm.",
       "category": "sleep",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 70,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
@@ -606,7 +713,14 @@
       "description_de": "Quantitatives Tracking via Wearable.",
       "description_en": "Quantitative tracking via wearable.",
       "category": "sleep",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 45,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
@@ -620,7 +734,14 @@
       "description_de": "Dunkler, kühler Raum; kein Bildschirm; kein Alkohol oder Kaffee spätabends.",
       "description_en": "Dark, cool room; no screens; no late alcohol or caffeine.",
       "category": "sleep",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 75,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
@@ -634,7 +755,14 @@
       "description_de": "7–9 Stunden, konsistent, ungestört.",
       "description_en": "7–9 hours, consistent, undisturbed.",
       "category": "sleep",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 80,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
@@ -648,7 +776,14 @@
       "description_de": "Für Hypertrophie: mindestens 8 h, idealerweise 9 h. Wachstum passiert im Tiefschlaf.",
       "description_en": "For hypertrophy: minimum 8h, ideally 9h. Growth happens in deep sleep.",
       "category": "sleep",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 65,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
@@ -662,7 +797,14 @@
       "description_de": "Sich mit Menschen umgeben, die gesunde Gewohnheiten leben.",
       "description_en": "Surround yourself with people living healthy habits.",
       "category": "social",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 60,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -675,7 +817,14 @@
       "description_de": "Eltern, Partner, Kinder priorisieren.",
       "description_en": "Prioritize parents, partner, children.",
       "category": "social",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 70,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -688,9 +837,14 @@
       "description_de": "Glaubensgemeinschaft oder Sinngemeinschaft.",
       "description_en": "Faith community or meaning community.",
       "category": "social",
-      "secondary_categories": [
-        "mental"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 35,
+        "sleep": 0,
+        "social": 60,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -703,9 +857,14 @@
       "description_de": "Gemeinschaft, langsames Essen, soziales Eingebundensein.",
       "description_en": "Community, slow eating, social embeddedness.",
       "category": "social",
-      "secondary_categories": [
-        "nutrition"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 65,
+        "nutrition": 30,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -718,7 +877,14 @@
       "description_de": "Intentionale, ausgedrückte Zuneigung.",
       "description_en": "Intentional, expressed affection.",
       "category": "social",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 55,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -731,9 +897,14 @@
       "description_de": "Aktive Unterstützung geben und annehmen.",
       "description_en": "Actively giving and receiving support.",
       "category": "social",
-      "secondary_categories": [
-        "mental"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 60,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -746,7 +917,14 @@
       "description_de": "In wenige Beziehungen investieren, statt viele oberflächliche.",
       "description_en": "Invest in few relationships rather than many shallow ones.",
       "category": "social",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 75,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -759,9 +937,14 @@
       "description_de": "Regelmäßige zwischenmenschliche Interaktion.",
       "description_en": "Regular interpersonal interaction.",
       "category": "social",
-      "secondary_categories": [
-        "mental"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 50,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -774,7 +957,14 @@
       "description_de": "Vollständig pflanzliche Ernährung, keine tierischen Produkte.",
       "description_en": "Fully plant-based diet, no animal products.",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 70,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -787,9 +977,14 @@
       "description_de": "Reduktion der Energiezufuhr um 10–25 % unter Erhaltungsbedarf. Kontraindikationen: Schwangerschaft, Stillzeit, Essstörungs-Historie, Untergewicht (BMI < 18,5), Kinder und Jugendliche, Gebrechlichkeit im Alter. Vor Beginn ärztliche oder ernährungsmedizinische Abklärung empfohlen.",
       "description_en": "10–25% reduction in energy intake below maintenance. Contraindications: pregnancy, breastfeeding, history of eating disorders, underweight (BMI < 18.5), children and adolescents, frailty in older age. Medical or dietary clearance recommended before starting.",
       "category": "nutrition",
-      "secondary_categories": [
-        "molecules"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 65,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -802,7 +997,14 @@
       "description_de": "Eliminierung zugesetzter Zucker.",
       "description_en": "Elimination of added sugars.",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 50,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -815,9 +1017,14 @@
       "description_de": "Essen innerhalb eines 8–10 h Fensters pro Tag.",
       "description_en": "Eating within an 8–10h window daily.",
       "category": "nutrition",
-      "secondary_categories": [
-        "molecules"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 55,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -830,7 +1037,14 @@
       "description_de": "1.6–2.2 g pro kg Körpergewicht, verteilt über den Tag.",
       "description_en": "1.6–2.2 g per kg body weight, spread across the day.",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 60,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -843,7 +1057,14 @@
       "description_de": "Überwiegend pflanzlich, Fleisch selten.",
       "description_en": "Mostly plant-based, meat rarely.",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 55,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -856,7 +1077,14 @@
       "description_de": "Hara hachi bu — aufhören bei 80 % Sättigung.",
       "description_en": "Hara hachi bu — stop at 80% satiety.",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 45,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -869,9 +1097,14 @@
       "description_de": "Im Blue-Zones-Konzept beobachtet: mäßiger Rotweinkonsum, gemeinsam mit anderen, früh abends. Hinweis: Die WHO sieht keinen sicheren Konsum-Schwellenwert für Alkohol; aktuelle Evidenz spricht gegen Alkohol als Longevity-Praktik.",
       "description_en": "Observed in the Blue Zones concept: moderate red wine consumption, with others, early evening. Note: The WHO states that no level of alcohol consumption is safe; current evidence does not support alcohol as a longevity practice.",
       "category": "nutrition",
-      "secondary_categories": [
-        "social"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 40,
+        "nutrition": 25,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -884,9 +1117,14 @@
       "description_de": "Mahlzeiten mit Familie oder Freunden statt allein.",
       "description_en": "Meals with family or friends instead of alone.",
       "category": "nutrition",
-      "secondary_categories": [
-        "social"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 55,
+        "nutrition": 35,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
@@ -900,9 +1138,14 @@
       "description_de": "16:8, 18:6 oder 24h-Fasten.",
       "description_en": "16:8, 18:6 or 24h fasting.",
       "category": "nutrition",
-      "secondary_categories": [
-        "molecules"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 60,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -915,7 +1158,14 @@
       "description_de": "Reduzierter Fleischkonsum, besonders rotes Fleisch.",
       "description_en": "Reduced meat consumption, especially red meat.",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 45,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -928,7 +1178,14 @@
       "description_de": "Pescetarisch, mediterran, niedrig im Protein bis 65, höher danach.",
       "description_en": "Pescetarian, Mediterranean, lower protein until 65, higher after.",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 70,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -941,7 +1198,14 @@
       "description_de": "Pflanzlich plus Fisch, kein Land-Tierfleisch.",
       "description_en": "Plant-based plus fish, no land animal meat.",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 55,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -954,9 +1218,14 @@
       "description_de": "5-Tages-Protokoll mit stark reduzierter Kalorienzufuhr, 2–4× pro Jahr. Kontraindikationen: Schwangerschaft, Stillzeit, Diabetes (insbesondere unter Insulin- oder Sulfonylharnstoff-Therapie), Essstörungs-Historie, Untergewicht (BMI < 18,5), Kinder und Jugendliche. Vor Beginn ärztliche Abklärung erforderlich.",
       "description_en": "5-day protocol with strongly reduced caloric intake, 2–4× per year. Contraindications: pregnancy, breastfeeding, diabetes (especially under insulin or sulfonylurea therapy), history of eating disorders, underweight (BMI < 18.5), children and adolescents. Medical clearance required before starting.",
       "category": "nutrition",
-      "secondary_categories": [
-        "molecules"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 65,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "periodic",
         "duration_min": 7200,
@@ -974,7 +1243,14 @@
       "description_de": "Unter 10 % der Kalorien aus Fett — Ornish-Reversal-Diät.",
       "description_en": "Below 10% of calories from fat — Ornish reversal diet.",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 60,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -987,7 +1263,14 @@
       "description_de": "Vollwertig pflanzlich, minimal verarbeitet.",
       "description_en": "Whole-food plant-based, minimally processed.",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 65,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1000,7 +1283,14 @@
       "description_de": "WFPB — vollwertig, pflanzlich, minimal verarbeitet (ACLM-Leitlinie).",
       "description_en": "WFPB — whole food, plant-based, minimally processed (ACLM guideline).",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 70,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1013,7 +1303,14 @@
       "description_de": "+200 bis +500 kcal über Erhaltungsbedarf für Hypertrophie.",
       "description_en": "+200 to +500 kcal above maintenance for hypertrophy.",
       "category": "nutrition",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 50,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1026,7 +1323,14 @@
       "description_de": "Umfangreiches Supplement-Protokoll (Bryan Johnsons Protokoll).",
       "description_en": "Comprehensive supplement protocol (Bryan Johnson's protocol).",
       "category": "molecules",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 85
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1039,7 +1343,14 @@
       "description_de": "Sammelbegriff für NAD+-Vorstufen (z.B. NMN, NR), in Longevity-Protokollen eingesetzt. Kein EFSA-zugelassener Health Claim.",
       "description_en": "Umbrella term for NAD+ precursors (e.g., NMN, NR), used in longevity protocols. No FDA-approved health claim.",
       "category": "molecules",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 45
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1052,7 +1363,14 @@
       "description_de": "Nicotinamid-Mononukleotid. Im Longevity-Kontext erforscht. EU: kein zugelassener Novel-Food-Status.",
       "description_en": "Nicotinamide mononucleotide. Studied in longevity research. US: classified as an investigational new drug by the FDA since 2022.",
       "category": "molecules",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 45
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1065,7 +1383,14 @@
       "description_de": "Polyphenol. In Longevity-Protokollen zur Sirtuin-Modulation diskutiert; kein EFSA-zugelassener Health Claim. Üblicherweise mit fettreicher Mahlzeit eingenommen.",
       "description_en": "Polyphenol. Discussed in longevity protocols for proposed sirtuin modulation; no FDA-approved health claim. Typically taken with a fat-containing meal.",
       "category": "molecules",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 40
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1078,9 +1403,14 @@
       "description_de": "Verzicht auf Tabak und schädliche Drogen. Hinweis zu Alkohol: Die WHO sieht keinen sicheren Konsum-Schwellenwert — je geringer der Konsum, desto besser.",
       "description_en": "Avoidance of tobacco and harmful drugs. Note on alcohol: The WHO states that no level of consumption is safe — less is better.",
       "category": "molecules",
-      "secondary_categories": [
-        "sleep"
-      ],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 70
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1093,7 +1423,14 @@
       "description_de": "3–5 g pro Tag, Kreatinmonohydrat. EU: EFSA-zugelassener Health Claim für körperliche Leistung bei Schnellkrafttraining.",
       "description_en": "3–5 g daily, creatine monohydrate. US: classified as GRAS (Generally Recognized as Safe) by the FDA.",
       "category": "molecules",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 65
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1106,7 +1443,14 @@
       "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen von Bryan Johnson und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: blueprint.bryanjohnson.com · Bryan Johnson (Blueprint)",
       "description_en": "This content is a summary of publicly published information by Bryan Johnson and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: blueprint.bryanjohnson.com · Bryan Johnson (Blueprint)",
       "category": "reference",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1119,7 +1463,14 @@
       "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen von Peter Attia, M.D. und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: peterattiamd.com · Peter Attia, M.D. (Buch „Outlive\", 2023)",
       "description_en": "This content is a summary of publicly published information by Peter Attia, M.D. and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: peterattiamd.com · Peter Attia, M.D. (book \"Outlive\", 2023)",
       "category": "reference",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1132,7 +1483,14 @@
       "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen von Dan Buettner und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: bluezones.com · Dan Buettner / Blue Zones LLC (Buchreihe „Blue Zones\")",
       "description_en": "This content is a summary of publicly published information by Dan Buettner and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: bluezones.com · Dan Buettner / Blue Zones LLC (\"Blue Zones\" book series)",
       "category": "reference",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1145,7 +1503,14 @@
       "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen von David A. Sinclair, Ph.D. und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: sinclair.hms.harvard.edu · David A. Sinclair, Ph.D. (Buch „Lifespan\", 2019)",
       "description_en": "This content is a summary of publicly published information by David A. Sinclair, Ph.D. and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: sinclair.hms.harvard.edu · David A. Sinclair, Ph.D. (book \"Lifespan\", 2019)",
       "category": "reference",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1158,7 +1523,14 @@
       "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen von Valter Longo, Ph.D. und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: valterlongo.com / USC Longevity Institute · Valter Longo, Ph.D. (Buch „The Longevity Diet\", 2018)",
       "description_en": "This content is a summary of publicly published information by Valter Longo, Ph.D. and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: valterlongo.com / USC Longevity Institute · Valter Longo, Ph.D. (book \"The Longevity Diet\", 2018)",
       "category": "reference",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1171,7 +1543,14 @@
       "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen von Dean Ornish, M.D. und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: ornish.com · Dean Ornish, M.D. (Buch „Undo It!\", 2019)",
       "description_en": "This content is a summary of publicly published information by Dean Ornish, M.D. and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: ornish.com · Dean Ornish, M.D. (book \"Undo It!\", 2019)",
       "category": "reference",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1184,7 +1563,14 @@
       "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen von dem American College of Lifestyle Medicine und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: lifestylemedicine.org · American College of Lifestyle Medicine (ACLM)",
       "description_en": "This content is a summary of publicly published information by the American College of Lifestyle Medicine and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: lifestylemedicine.org · American College of Lifestyle Medicine (ACLM)",
       "category": "reference",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1197,46 +1583,34 @@
       "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen von López-Otín et al. und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nHinweis: Die Hallmarks of Aging sind ein wissenschaftliches Rahmenmodell biologischer Alterungsmechanismen — keine Handlungsempfehlung. Aktivitäten in dieser App, die einzelnen Hallmarks zugeordnet sind, basieren auf eigener Einordnung der App-Autor:innen.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: López-Otín et al., Cell 2013 / 2023 Update · López-Otín, Blasco, Partridge, Serrano, Kroemer (Cell 153:1194–1217, 2013; Cell 186:243–278, 2023)",
       "description_en": "This content is a summary of publicly published information by López-Otín et al. and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nNote: The Hallmarks of Aging are a scientific framework describing biological aging mechanisms — not a recommendation for action. Activities in this app mapped to individual hallmarks reflect the app authors' own categorization.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: López-Otín et al., Cell 2013 / 2023 Update · López-Otín, Blasco, Partridge, Serrano, Kroemer (Cell 153:1194–1217, 2013; Cell 186:243–278, 2023)",
       "category": "reference",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
       }
     },
     {
-      "id": "reference_muscle_building_1",
+      "id": "reference_muscle_building",
       "name_de": "Quellen & Hinweise",
       "name_en": "Sources & Disclaimer",
-      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen aus der sportwissenschaftlichen Fachliteratur und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Sportwissenschaftliche Fachliteratur · diverse Autor:innen, u.a. Schoenfeld, Helms, Israetel",
-      "description_en": "This content is a summary of publicly published information from sport science literature and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Sport science literature · various authors incl. Schoenfeld, Helms, Israetel",
+      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen von der sportwissenschaftlichen Fachliteratur und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Sportwissenschaftliche Fachliteratur / ENG Coach · diverse Quellen, u.a. Schoenfeld, Helms, Israetel; ENG Coach 2er-Split",
+      "description_en": "This content is a summary of publicly published information by sport science literature and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Sportwissenschaftliche Fachliteratur / ENG Coach · various sources incl. Schoenfeld, Helms, Israetel; ENG Coach 2-day split",
       "category": "reference",
-      "secondary_categories": [],
-      "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
-      }
-    },
-    {
-      "id": "reference_muscle_building_2",
-      "name_de": "Quellen & Hinweise",
-      "name_en": "Sources & Disclaimer",
-      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen aus der sportwissenschaftlichen Fachliteratur und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Sportwissenschaftliche Fachliteratur · diverse Autor:innen, u.a. Schoenfeld, Helms, Israetel",
-      "description_en": "This content is a summary of publicly published information from sport science literature and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Sport science literature · various authors incl. Schoenfeld, Helms, Israetel",
-      "category": "reference",
-      "secondary_categories": [],
-      "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
-      }
-    },
-    {
-      "id": "reference_muscle_building_3",
-      "name_de": "Quellen & Hinweise",
-      "name_en": "Sources & Disclaimer",
-      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen aus der sportwissenschaftlichen Fachliteratur und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung („Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Sportwissenschaftliche Fachliteratur · diverse Autor:innen, u.a. Schoenfeld, Helms, Israetel",
-      "description_en": "This content is a summary of publicly published information from sport science literature and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Sport science literature · various authors incl. Schoenfeld, Helms, Israetel",
-      "category": "reference",
-      "secondary_categories": [],
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a"
@@ -1511,6 +1885,52 @@
       "framework_id": "aclm"
     },
     {
+      "activity_id": "split_2_a_push_abs",
+      "framework_id": "muscle_building",
+      "note_de": "ENG Coach 2er-Split Tag A — Brust, Schulter, Trizeps, Bauch",
+      "note_en": "ENG Coach 2-day split A — chest, shoulders, triceps, abs"
+    },
+    {
+      "activity_id": "split_2_b_pull_legs",
+      "framework_id": "muscle_building",
+      "note_de": "ENG Coach 2er-Split Tag B — Beine, Waden, Rücken, Bizeps",
+      "note_en": "ENG Coach 2-day split B — legs, calves, back, biceps"
+    },
+    {
+      "activity_id": "split_3_push",
+      "framework_id": "muscle_building"
+    },
+    {
+      "activity_id": "split_3_pull",
+      "framework_id": "muscle_building"
+    },
+    {
+      "activity_id": "split_3_legs",
+      "framework_id": "muscle_building"
+    },
+    {
+      "activity_id": "ganzkoerper_training",
+      "framework_id": "muscle_building"
+    },
+    {
+      "activity_id": "schlafquantitaet",
+      "framework_id": "muscle_building"
+    },
+    {
+      "activity_id": "protein",
+      "framework_id": "muscle_building",
+      "note_de": "1.8–2.2 g pro kg Körpergewicht",
+      "note_en": "1.8–2.2 g per kg body weight"
+    },
+    {
+      "activity_id": "kalorienueberschuss",
+      "framework_id": "muscle_building"
+    },
+    {
+      "activity_id": "kreatin",
+      "framework_id": "muscle_building"
+    },
+    {
       "activity_id": "reference_bryan_johnson",
       "framework_id": "bryan_johnson"
     },
@@ -1543,98 +1963,8 @@
       "framework_id": "hallmarks"
     },
     {
-      "activity_id": "ganzkoerper_training",
-      "framework_id": "muscle_building_1"
-    },
-    {
-      "activity_id": "schlafquantitaet",
-      "framework_id": "muscle_building_1"
-    },
-    {
-      "activity_id": "protein",
-      "note_de": "1.8–2.2 g pro kg Körpergewicht",
-      "note_en": "1.8–2.2 g per kg body weight",
-      "framework_id": "muscle_building_1"
-    },
-    {
-      "activity_id": "kalorienueberschuss",
-      "framework_id": "muscle_building_1"
-    },
-    {
-      "activity_id": "kreatin",
-      "framework_id": "muscle_building_1"
-    },
-    {
-      "activity_id": "reference_muscle_building_1",
-      "framework_id": "muscle_building_1"
-    },
-    {
-      "activity_id": "split_2_a_push_abs",
-      "note_de": "ENG Coach 2er-Split Tag A — Brust, Schulter, Trizeps, Bauch",
-      "note_en": "ENG Coach 2-day split A — chest, shoulders, triceps, abs",
-      "framework_id": "muscle_building_2"
-    },
-    {
-      "activity_id": "split_2_b_pull_legs",
-      "note_de": "ENG Coach 2er-Split Tag B — Beine, Waden, Rücken, Bizeps",
-      "note_en": "ENG Coach 2-day split B — legs, calves, back, biceps",
-      "framework_id": "muscle_building_2"
-    },
-    {
-      "activity_id": "schlafquantitaet",
-      "framework_id": "muscle_building_2"
-    },
-    {
-      "activity_id": "protein",
-      "note_de": "1.8–2.2 g pro kg Körpergewicht",
-      "note_en": "1.8–2.2 g per kg body weight",
-      "framework_id": "muscle_building_2"
-    },
-    {
-      "activity_id": "kalorienueberschuss",
-      "framework_id": "muscle_building_2"
-    },
-    {
-      "activity_id": "kreatin",
-      "framework_id": "muscle_building_2"
-    },
-    {
-      "activity_id": "reference_muscle_building_2",
-      "framework_id": "muscle_building_2"
-    },
-    {
-      "activity_id": "split_3_push",
-      "framework_id": "muscle_building_3"
-    },
-    {
-      "activity_id": "split_3_pull",
-      "framework_id": "muscle_building_3"
-    },
-    {
-      "activity_id": "split_3_legs",
-      "framework_id": "muscle_building_3"
-    },
-    {
-      "activity_id": "schlafquantitaet",
-      "framework_id": "muscle_building_3"
-    },
-    {
-      "activity_id": "protein",
-      "note_de": "1.8–2.2 g pro kg Körpergewicht",
-      "note_en": "1.8–2.2 g per kg body weight",
-      "framework_id": "muscle_building_3"
-    },
-    {
-      "activity_id": "kalorienueberschuss",
-      "framework_id": "muscle_building_3"
-    },
-    {
-      "activity_id": "kreatin",
-      "framework_id": "muscle_building_3"
-    },
-    {
-      "activity_id": "reference_muscle_building_3",
-      "framework_id": "muscle_building_3"
+      "activity_id": "reference_muscle_building",
+      "framework_id": "muscle_building"
     }
   ],
   "hallmark_tags": [
