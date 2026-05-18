@@ -422,7 +422,7 @@
       },
       "timing": {
         "cycle_kind": "supercompensation",
-        "duration_min": 60,
+        "duration_min": 50,
         "recovery_hours_min": 48,
         "sweet_spot_hours": 56,
         "frequency_per_week_recommended": 3,
@@ -661,10 +661,10 @@
       },
       "timing": {
         "cycle_kind": "supercompensation",
-        "duration_min": 45,
+        "duration_min": 60,
         "recovery_hours_min": 24,
         "sweet_spot_hours": 36,
-        "frequency_per_week_recommended": 4,
+        "frequency_per_week_recommended": 3,
         "evidence": "estimated"
       },
       "healthkit_mapping": {
@@ -1066,7 +1066,7 @@
         "duration_min": 3,
         "recovery_hours_min": 24,
         "sweet_spot_hours": 48,
-        "frequency_per_week_recommended": 3,
+        "frequency_per_week_recommended": 4,
         "evidence": "Hormesis-Forschung; Huberman-Lab-Synthese"
       },
       "healthkit_mapping": null
@@ -1091,7 +1091,7 @@
         "duration_min": 20,
         "recovery_hours_min": 24,
         "sweet_spot_hours": 48,
-        "frequency_per_week_recommended": 3,
+        "frequency_per_week_recommended": 7,
         "evidence": "Laukkanen et al. (Sauna-Mortalität, Finnland)"
       },
       "healthkit_mapping": null
@@ -3719,7 +3719,7 @@
       "duration": "min",
       "frequency": "×/week",
       "recovery": "h"
-    }, 
+    },
     "framework_sort_default": "media_presence_desc",
     "stack_state_labels_de": {
       "in_stack": "Im Stack",
