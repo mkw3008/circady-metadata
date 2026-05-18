@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0.0",
-  "data_version": "6.0.0",
+  "data_version": "6.2.0",
   "data_updated": "2026-05-18",
   "name": "circady-frameworks",
   "description_de": "Single source of truth für circady Frameworks-Tab. Treibt App-Browse-Experience und Visualisierungen.",
@@ -265,6 +265,142 @@
         "fill": "DBEAFE",
         "border": "1E40AF",
         "text": "1E3A5F"
+      }
+    },
+    {
+      "id": "nina_ruge",
+      "name_short_de": "Ruge",
+      "name_short_en": "Ruge",
+      "name_full_de": "Nina Ruge — 5-Säulen-Plan",
+      "name_full_en": "Nina Ruge — 5-Pillar Plan",
+      "subtitle_de": "Ernährung, Sport, Schlaf, Stress, Supplemente",
+      "subtitle_en": "Nutrition, exercise, sleep, stress, supplements",
+      "source": "Nina Ruge — Bücher \"Verjüngung ist möglich\", \"Altern wird heilbar\"; turnaroundaging.com",
+      "kind": "exemplary",
+      "order": 14,
+      "palette": {
+        "fill": "F4E6E7",
+        "border": "B85763",
+        "text": "7A3540"
+      }
+    },
+    {
+      "id": "hems",
+      "name_short_de": "Hems",
+      "name_short_en": "Hems",
+      "name_full_de": "Niko Hems — Project Peakspan",
+      "name_full_en": "Niko Hems — Project Peakspan",
+      "subtitle_de": "5-Säulen, evidenzbasiert, minimal Supplemente",
+      "subtitle_en": "5-pillar, evidence-based, minimal supplements",
+      "source": "Niko Hems — nikohems.de, \"Return on Health\" Podcast, Substack \"Beyond the Hype\"",
+      "kind": "exemplary",
+      "order": 15,
+      "palette": {
+        "fill": "DBEDF7",
+        "border": "1E5A8C",
+        "text": "13456A"
+      }
+    },
+    {
+      "id": "doc_felix",
+      "name_short_de": "Doc Felix",
+      "name_short_en": "Doc Felix",
+      "name_full_de": "Dr. Felix M. Berndt (Doc Felix)",
+      "name_full_en": "Dr. Felix M. Berndt (Doc Felix)",
+      "subtitle_de": "Allgemeinmedizin: Stress, Hormone, Fettverbrennung",
+      "subtitle_en": "General medicine: stress, hormones, fat loss",
+      "source": "Dr. Felix M. Berndt — Instagram @doc_felix, TV-Auftritte, YouTube",
+      "kind": "exemplary",
+      "order": 16,
+      "palette": {
+        "fill": "E5F0D4",
+        "border": "6B8E23",
+        "text": "4A6B17"
+      }
+    },
+    {
+      "id": "lyon",
+      "name_short_de": "Lyon",
+      "name_short_en": "Lyon",
+      "name_full_de": "Dr. Gabrielle Lyon — Muscle-Centric Medicine",
+      "name_full_en": "Dr. Gabrielle Lyon — Muscle-Centric Medicine",
+      "subtitle_de": "Muskel als Organ der Langlebigkeit",
+      "subtitle_en": "Muscle as the organ of longevity",
+      "source": "Dr. Gabrielle Lyon — Buch \"Forever Strong\" (2023), Dr. Gabrielle Lyon Podcast",
+      "kind": "exemplary",
+      "order": 17,
+      "palette": {
+        "fill": "F4D9D8",
+        "border": "A33E3E",
+        "text": "6E2828"
+      }
+    },
+    {
+      "id": "brecka",
+      "name_short_de": "Brecka",
+      "name_short_en": "Brecka",
+      "name_full_de": "Gary Brecka — 10X Health System",
+      "name_full_en": "Gary Brecka — 10X Health System",
+      "subtitle_de": "Methylierungs-Genetik, Atemarbeit, Cold/Heat",
+      "subtitle_en": "Methylation genetics, breathwork, cold/heat",
+      "source": "Gary Brecka — 10xhealthsystem.com, \"The Ultimate Human\" Podcast",
+      "kind": "exemplary",
+      "order": 18,
+      "palette": {
+        "fill": "FAE6CC",
+        "border": "B86A1F",
+        "text": "7C4612"
+      }
+    },
+    {
+      "id": "diamandis",
+      "name_short_de": "Diamandis",
+      "name_short_en": "Diamandis",
+      "name_full_de": "Peter H. Diamandis — Bold / Lifespan-Tech",
+      "name_full_en": "Peter H. Diamandis — Bold / Lifespan Tech",
+      "subtitle_de": "Diagnostik, Exponential Tech, Frontier Interventions",
+      "subtitle_en": "Diagnostics, exponential tech, frontier interventions",
+      "source": "Peter Diamandis — Bücher \"Bold\", \"Lifespan\"; Fountain Life Co-Founder; Abundance 360",
+      "kind": "exemplary",
+      "order": 19,
+      "palette": {
+        "fill": "E8DDF5",
+        "border": "5C3A8C",
+        "text": "3F2563"
+      }
+    },
+    {
+      "id": "love",
+      "name_short_de": "Love",
+      "name_short_en": "Love",
+      "name_full_de": "Robert W.B. Love — Brain Health & Memory",
+      "name_full_en": "Robert W.B. Love — Brain Health & Memory",
+      "subtitle_de": "Neuroprotektive Diät, Memory-Schutz",
+      "subtitle_en": "Neuroprotective diet, memory protection",
+      "source": "Robert W.B. Love — Instagram @robertwbl, Online-Kurse zu Alzheimer-Prävention",
+      "kind": "exemplary",
+      "order": 20,
+      "palette": {
+        "fill": "D7E8E8",
+        "border": "4A8A8A",
+        "text": "2F5C5C"
+      }
+    },
+    {
+      "id": "huberman",
+      "name_short_de": "Huberman",
+      "name_short_en": "Huberman",
+      "name_full_de": "Andrew Huberman — Huberman Lab Protocol",
+      "name_full_en": "Andrew Huberman — Huberman Lab Protocol",
+      "subtitle_de": "Stanford-Neurowissenschaftler: Schlaf, Licht, Atem, Training",
+      "subtitle_en": "Stanford neuroscientist: sleep, light, breath, training",
+      "source": "Andrew Huberman, Ph.D. — Huberman Lab Podcast, Stanford School of Medicine; hubermanlab.com",
+      "kind": "exemplary",
+      "order": 21,
+      "palette": {
+        "fill": "E0E8EC",
+        "border": "2C4C5F",
+        "text": "1A3040"
       }
     }
   ],
@@ -911,6 +1047,98 @@
       }
     },
     {
+      "id": "kaelteexposition",
+      "name_de": "Kälteexposition",
+      "name_en": "Cold exposure",
+      "description_de": "**Tu:** Sich kurz kaltem Wasser oder kalter Luft aussetzen.\n\n**Ziel:** Hormetische Stressreaktion: kurzfristiger Anstieg von Noradrenalin und Dopamin, mentale Klarheit, verbesserte Resilienz.\n\n**Methode:** 1–3 min in Wasser bei 10–15 °C (Eisbad, kaltes Tauchbecken) oder kalte Dusche. 3–4× pro Woche. Atmung kontrolliert halten. Bei Herz-Kreislauf-Erkrankungen oder Schwangerschaft vorher ärztlich abklären.",
+      "description_en": "**Do:** Briefly expose yourself to cold water or cold air.\n\n**Goal:** Hormetic stress response: short-term increase in norepinephrine and dopamine, mental clarity, improved resilience.\n\n**Method:** 1–3 min in 10–15 °C water (ice bath, cold plunge) or cold shower. 3–4× per week. Keep breathing controlled. Check with a doctor first if you have cardiovascular conditions or are pregnant.",
+      "category": "mental",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 30,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "supercompensation",
+        "duration_min": 3,
+        "recovery_hours_min": 24,
+        "sweet_spot_hours": 48,
+        "frequency_per_week_recommended": 3,
+        "evidence": "Hormesis-Forschung; Huberman-Lab-Synthese"
+      },
+      "healthkit_mapping": null
+    },
+    {
+      "id": "hitzeexposition",
+      "name_de": "Hitzeexposition (Sauna)",
+      "name_en": "Heat exposure (sauna)",
+      "description_de": "**Tu:** Regelmäßig Sauna oder andere Hitze-Exposition nutzen.\n\n**Ziel:** Heat-Shock-Proteine, kardiovaskuläre Anpassung, mentale Erholung. In Beobachtungsstudien (Laukkanen) mit Mortalitätsreduktion assoziiert.\n\n**Methode:** 15–20 min bei 80–90 °C, 3–4× pro Woche. Auf Hydration achten. Bei Bluthochdruck, Herz-Kreislauf-Erkrankungen oder Schwangerschaft vorher ärztlich abklären.",
+      "description_en": "**Do:** Use sauna or other heat exposure regularly.\n\n**Goal:** Heat-shock proteins, cardiovascular adaptation, mental recovery. Associated with mortality reduction in observational studies (Laukkanen).\n\n**Method:** 15–20 min at 80–90 °C, 3–4× per week. Stay hydrated. Check with a doctor first if you have hypertension, cardiovascular conditions, or are pregnant.",
+      "category": "mental",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 25,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "supercompensation",
+        "duration_min": 20,
+        "recovery_hours_min": 24,
+        "sweet_spot_hours": 48,
+        "frequency_per_week_recommended": 3,
+        "evidence": "Laukkanen et al. (Sauna-Mortalität, Finnland)"
+      },
+      "healthkit_mapping": null
+    },
+    {
+      "id": "nsdr",
+      "name_de": "NSDR / Yoga Nidra",
+      "name_en": "NSDR / Yoga Nidra",
+      "description_de": "**Tu:** Eine geführte Tiefenentspannung im Wachzustand machen (Non-Sleep Deep Rest / Yoga Nidra).\n\n**Ziel:** Mentale Erholung, Dopamin-Restauration nach Schlafmangel, gesteigerte Lernkonsolidierung – ohne Schlafdruck am Abend zu verändern.\n\n**Methode:** 10–30 min liegend mit geführter Audio (z. B. Reveri, Waking Up, YouTube). Tagsüber bei Bedarf, als Pausen-Boost oder Powernap-Ersatz.",
+      "description_en": "**Do:** Do a guided deep rest while awake (Non-Sleep Deep Rest / Yoga Nidra).\n\n**Goal:** Mental recovery, dopamine restoration after sleep loss, improved learning consolidation – without altering evening sleep pressure.\n\n**Method:** 10–30 min lying down with guided audio (e.g. Reveri, Waking Up, YouTube). During the day as needed, as a break booster or nap alternative.",
+      "category": "mental",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 25,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "continuous",
+        "evidence": "n/a"
+      },
+      "healthkit_mapping": null
+    },
+    {
+      "id": "diagnostik_blutwerte",
+      "name_de": "Diagnostik & Blutwerte",
+      "name_en": "Diagnostics & blood panel",
+      "description_de": "**Tu:** Regelmäßig ein erweitertes Blut-Panel und relevante Biomarker bestimmen lassen.\n\n**Ziel:** Frühe Erkennung von Drift in Stoffwechsel, Hormonen, Entzündung – Interventionen vor Symptomen ermöglichen.\n\n**Methode:** Mindestens jährlich, bei aktiver Optimierung halbjährlich. Erweiterte Panels inkl. ApoB, Lp(a), hs-CRP, Nüchtern-Insulin/HbA1c, Hormonpanel, Vitamin D, B12, Ferritin. Mit Ärztin/Arzt besprechen und interpretieren.",
+      "description_en": "**Do:** Regularly run an extended blood panel and relevant biomarkers.\n\n**Goal:** Early detection of drift in metabolism, hormones, and inflammation – enable interventions before symptoms appear.\n\n**Method:** At least annually, biannually for active optimization. Extended panels including ApoB, Lp(a), hs-CRP, fasting insulin/HbA1c, hormone panel, vitamin D, B12, ferritin. Review and interpret with a physician.",
+      "category": "mental",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 20,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "continuous",
+        "evidence": "n/a"
+      },
+      "healthkit_mapping": null
+    },
+    {
       "id": "schlafenszeit",
       "name_de": "Feste Schlafenszeit",
       "name_en": "Consistent bedtime",
@@ -1038,6 +1266,27 @@
         "write_back": false,
         "linked_biomarker": "sleepDurationHours"
       }
+    },
+    {
+      "id": "morgensonne",
+      "name_de": "Morgenlicht",
+      "name_en": "Morning sunlight",
+      "description_de": "**Tu:** Innerhalb der ersten Stunde nach dem Aufwachen ins natürliche Tageslicht gehen.\n\n**Ziel:** Circadianen Rhythmus stabilisieren, morgendlichen Cortisol-Anstieg setzen – verbessert nächtlichen Schlaf und Tageswachheit.\n\n**Methode:** 5–10 min bei wolkenlosem Himmel, 10–20 min bei bewölktem Wetter, 20–30 min an grauen Wintertagen. Ohne Sonnenbrille (Glas filtert relevante Wellenlängen weg). Nicht direkt in die Sonne sehen.",
+      "description_en": "**Do:** Get outside into natural daylight within the first hour after waking.\n\n**Goal:** Stabilize circadian rhythm, set morning cortisol peak – improves night sleep and daytime alertness.\n\n**Method:** 5–10 min on clear days, 10–20 min when cloudy, 20–30 min on grey winter days. No sunglasses (glass filters relevant wavelengths). Do not look directly at the sun.",
+      "category": "sleep",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 25,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "continuous",
+        "evidence": "n/a"
+      },
+      "healthkit_mapping": null
     },
     {
       "id": "right_tribe",
@@ -2226,6 +2475,174 @@
         "evidence": "n/a"
       },
       "healthkit_mapping": null
+    },
+    {
+      "id": "reference_nina_ruge",
+      "name_de": "Quellen & Hinweise",
+      "name_en": "Sources & Disclaimer",
+      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung (\"Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Nina Ruge — Bücher \"Verjüngung ist möglich\", \"Altern wird heilbar\"; turnaroundaging.com",
+      "description_en": "This content is a summary of publicly published information and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Nina Ruge — Bücher \"Verjüngung ist möglich\", \"Altern wird heilbar\"; turnaroundaging.com",
+      "category": "reference",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "continuous",
+        "evidence": "n/a"
+      },
+      "healthkit_mapping": null
+    },
+    {
+      "id": "reference_hems",
+      "name_de": "Quellen & Hinweise",
+      "name_en": "Sources & Disclaimer",
+      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung (\"Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Niko Hems — nikohems.de, \"Return on Health\" Podcast, Substack \"Beyond the Hype\"",
+      "description_en": "This content is a summary of publicly published information and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Niko Hems — nikohems.de, \"Return on Health\" Podcast, Substack \"Beyond the Hype\"",
+      "category": "reference",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "continuous",
+        "evidence": "n/a"
+      },
+      "healthkit_mapping": null
+    },
+    {
+      "id": "reference_doc_felix",
+      "name_de": "Quellen & Hinweise",
+      "name_en": "Sources & Disclaimer",
+      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung (\"Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Dr. Felix M. Berndt — Instagram @doc_felix, TV-Auftritte, YouTube",
+      "description_en": "This content is a summary of publicly published information and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Dr. Felix M. Berndt — Instagram @doc_felix, TV-Auftritte, YouTube",
+      "category": "reference",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "continuous",
+        "evidence": "n/a"
+      },
+      "healthkit_mapping": null
+    },
+    {
+      "id": "reference_lyon",
+      "name_de": "Quellen & Hinweise",
+      "name_en": "Sources & Disclaimer",
+      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung (\"Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Dr. Gabrielle Lyon — Buch \"Forever Strong\" (2023), Dr. Gabrielle Lyon Podcast",
+      "description_en": "This content is a summary of publicly published information and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Dr. Gabrielle Lyon — Buch \"Forever Strong\" (2023), Dr. Gabrielle Lyon Podcast",
+      "category": "reference",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "continuous",
+        "evidence": "n/a"
+      },
+      "healthkit_mapping": null
+    },
+    {
+      "id": "reference_brecka",
+      "name_de": "Quellen & Hinweise",
+      "name_en": "Sources & Disclaimer",
+      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung (\"Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Gary Brecka — 10xhealthsystem.com, \"The Ultimate Human\" Podcast",
+      "description_en": "This content is a summary of publicly published information and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Gary Brecka — 10xhealthsystem.com, \"The Ultimate Human\" Podcast",
+      "category": "reference",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "continuous",
+        "evidence": "n/a"
+      },
+      "healthkit_mapping": null
+    },
+    {
+      "id": "reference_diamandis",
+      "name_de": "Quellen & Hinweise",
+      "name_en": "Sources & Disclaimer",
+      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung (\"Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Peter Diamandis — Bücher \"Bold\", \"Lifespan\"; Fountain Life Co-Founder; Abundance 360",
+      "description_en": "This content is a summary of publicly published information and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Peter Diamandis — Bücher \"Bold\", \"Lifespan\"; Fountain Life Co-Founder; Abundance 360",
+      "category": "reference",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "continuous",
+        "evidence": "n/a"
+      },
+      "healthkit_mapping": null
+    },
+    {
+      "id": "reference_love",
+      "name_de": "Quellen & Hinweise",
+      "name_en": "Sources & Disclaimer",
+      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung (\"Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Robert W.B. Love — Instagram @robertwbl, Online-Kurse zu Alzheimer-Prävention",
+      "description_en": "This content is a summary of publicly published information and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Robert W.B. Love — Instagram @robertwbl, Online-Kurse zu Alzheimer-Prävention",
+      "category": "reference",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "continuous",
+        "evidence": "n/a"
+      },
+      "healthkit_mapping": null
+    },
+    {
+      "id": "reference_huberman",
+      "name_de": "Quellen & Hinweise",
+      "name_en": "Sources & Disclaimer",
+      "description_de": "Diese Inhalte sind eine Zusammenfassung öffentlich publizierter Informationen und dienen ausschließlich allgemeinen Informations- und Bildungszwecken. Sie stellen ausdrücklich keine medizinische, diagnostische oder therapeutische Beratung dar und ersetzen nicht den Besuch bei einer Ärztin oder einem Arzt.\n\nKonsultiere vor Beginn, Änderung oder Beendigung gesundheitsbezogener Maßnahmen — insbesondere bei Nahrungsergänzungsmitteln, verschreibungspflichtigen oder off-label genutzten Substanzen, Ernährungsumstellungen, Fastenprotokollen oder intensiver körperlicher Aktivität — stets qualifiziertes medizinisches Fachpersonal. Im Notfall: 112.\n\nMarken-, Buch- und Protokollbezeichnungen werden ausschließlich zur Quellenbenennung verwendet. Es besteht keine offizielle Verbindung, Kooperation oder Empfehlung (\"Endorsement\") zwischen dieser App und den genannten Autor:innen oder Organisationen.\n\nQuelle: Andrew Huberman, Ph.D. — Huberman Lab Podcast, Stanford School of Medicine; hubermanlab.com",
+      "description_en": "This content is a summary of publicly published information and serves general informational and educational purposes only. It expressly does not constitute medical, diagnostic, or therapeutic advice and is not a substitute for consultation with a licensed physician.\n\nAlways consult qualified medical professionals before beginning, modifying, or discontinuing any health-related practices — especially regarding dietary supplements, prescription or off-label substances, dietary changes, fasting protocols, or vigorous physical activity. In a medical emergency, call 911 (US) or your local emergency number.\n\nBrand names, book titles, and protocol designations are used solely for source attribution. There is no official affiliation, partnership, or endorsement between this app and the named authors or organizations.\n\nSource: Andrew Huberman, Ph.D. — Huberman Lab Podcast, Stanford School of Medicine; hubermanlab.com",
+      "category": "reference",
+      "pillar_contributions": {
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
+        "social": 0,
+        "nutrition": 0,
+        "molecules": 0
+      },
+      "timing": {
+        "cycle_kind": "continuous",
+        "evidence": "n/a"
+      },
+      "healthkit_mapping": null
     }
   ],
   "endorsements": [
@@ -2820,6 +3237,466 @@
     {
       "activity_id": "omega_3",
       "framework_id": "cavaliere"
+    },
+    {
+      "activity_id": "krafttraining",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "physische_aktivitaet",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "stressreduktion",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "meditation",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "schlafenszeit",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "erholsamer_schlaf",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "protein",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "pflanzlich_vollwertig",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "vitamin_d3",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "omega_3",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "magnesium",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "reference_nina_ruge",
+      "framework_id": "nina_ruge"
+    },
+    {
+      "activity_id": "zone_2",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "hiit",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "krafttraining",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "erholsamer_schlaf",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "schlafenszeit",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "sozialkontakte",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "protein",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "pflanzlich_vollwertig",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "kreatin",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "vitamin_d3",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "vitamin_k2",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "magnesium",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "omega_3",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "reference_hems",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "zone_2",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "hiit",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "physische_aktivitaet",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "stressreduktion",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "atmen",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "meditation",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "schlafenszeit",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "erholsamer_schlaf",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "kein_zucker",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "zeitfenster_essen",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "protein",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "reference_doc_felix",
+      "framework_id": "doc_felix"
+    },
+    {
+      "activity_id": "krafttraining",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "split_3_push",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "split_3_pull",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "split_3_legs",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "physische_aktivitaet",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "erholsamer_schlaf",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "protein",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "kreatin",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "vitamin_d3",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "omega_3",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "reference_lyon",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "krafttraining",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "physische_aktivitaet",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "atmen",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "stressreduktion",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "erholsamer_schlaf",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "kein_zucker",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "b_vitamine_methyliert",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "magnesium",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "vitamin_d3",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "omega_3",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "reference_brecka",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "krafttraining",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "hiit",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "zone_2",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "meditation",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "schlafenszeit",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "erholsamer_schlaf",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "zeitfenster_essen",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "protein",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "nmn",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "resveratrol",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "vitamin_d3",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "omega_3",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "multivitamin",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "magnesium",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "reference_diamandis",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "physische_aktivitaet",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "spazieren_gehen",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "meditation",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "stressreduktion",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "erholsamer_schlaf",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "schlafhygiene",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "sozialkontakte",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "pflanzlich_vollwertig",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "kein_zucker",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "omega_3",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "vitamin_d3",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "curcumin",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "reference_love",
+      "framework_id": "love"
+    },
+    {
+      "activity_id": "zone_2",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "krafttraining",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "hiit",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "meditation",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "atmen",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "schlafenszeit",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "erholsamer_schlaf",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "schlafhygiene",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "zeitfenster_essen",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "protein",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "magnesium",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "vitamin_d3",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "omega_3",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "kreatin",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "glycin",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "reference_huberman",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "kaelteexposition",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "kaelteexposition",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "hitzeexposition",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "hitzeexposition",
+      "framework_id": "brecka"
+    },
+    {
+      "activity_id": "morgensonne",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "morgensonne",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "nsdr",
+      "framework_id": "huberman"
+    },
+    {
+      "activity_id": "diagnostik_blutwerte",
+      "framework_id": "hems"
+    },
+    {
+      "activity_id": "diagnostik_blutwerte",
+      "framework_id": "lyon"
+    },
+    {
+      "activity_id": "diagnostik_blutwerte",
+      "framework_id": "diamandis"
+    },
+    {
+      "activity_id": "diagnostik_blutwerte",
+      "framework_id": "brecka"
     }
   ],
   "render_rules": {
