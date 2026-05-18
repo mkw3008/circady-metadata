@@ -3719,7 +3719,7 @@
       "duration": "min",
       "frequency": "×/week",
       "recovery": "h"
-    },
+    }, 
     "framework_sort_default": "media_presence_desc",
     "stack_state_labels_de": {
       "in_stack": "Im Stack",
