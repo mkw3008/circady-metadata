@@ -192,7 +192,7 @@
       "subtitle_en": "Hypertrophy — full-body training (3×/week)",
       "source": "Hypertrophie-Standardprinzipien / ENG Coach 2er-Split",
       "kind": "exemplary",
-      "order": 9,
+      "order": 22,
       "palette": {
         "fill": "FAEEDA",
         "border": "854F0B",
@@ -209,7 +209,7 @@
       "subtitle_en": "Hypertrophy — 2-day split (Push+Abs / Pull+Legs)",
       "source": "Hypertrophie-Standardprinzipien / ENG Coach 2er-Split",
       "kind": "exemplary",
-      "order": 10,
+      "order": 23,
       "palette": {
         "fill": "FAEEDA",
         "border": "854F0B",
@@ -226,7 +226,7 @@
       "subtitle_en": "Hypertrophy — 3-day split (Push / Pull / Legs)",
       "source": "Hypertrophie-Standardprinzipien / ENG Coach 2er-Split",
       "kind": "exemplary",
-      "order": 11,
+      "order": 24,
       "palette": {
         "fill": "FAEEDA",
         "border": "854F0B",
