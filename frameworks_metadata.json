@@ -124,7 +124,7 @@
       "subtitle_en": "Information theory of aging",
       "source": "Harvard Med / Lifespan",
       "kind": "protocol",
-      "order": 4,
+      "order": 21,
       "palette": {
         "fill": "FBEAF0",
         "border": "993556",
@@ -396,7 +396,7 @@
       "subtitle_en": "Stanford neuroscientist: sleep, light, breath, training",
       "source": "Andrew Huberman, Ph.D. — Huberman Lab Podcast, Stanford School of Medicine; hubermanlab.com",
       "kind": "exemplary",
-      "order": 21,
+      "order": 4,
       "palette": {
         "fill": "E0E8EC",
         "border": "2C4C5F",
