@@ -73,7 +73,7 @@
       "subtitle_en": "Self-experimental longevity protocol",
       "source": "blueprint.bryanjohnson.com",
       "kind": "protocol",
-      "order": 1,
+      "order": 3,
       "palette": {
         "fill": "EEEDFE",
         "border": "534AB7",
@@ -90,7 +90,7 @@
       "subtitle_en": "Train like an athlete — Four-pillar model",
       "source": "peterattiamd.com",
       "kind": "protocol",
-      "order": 2,
+      "order": 1,
       "palette": {
         "fill": "E6F1FB",
         "border": "185FA5",
@@ -107,7 +107,7 @@
       "subtitle_en": "Long-living regions — what centenarians do",
       "source": "bluezones.com / Dan Buettner",
       "kind": "protocol",
-      "order": 3,
+      "order": 4,
       "palette": {
         "fill": "E1F5EE",
         "border": "0F6E56",
@@ -396,7 +396,7 @@
       "subtitle_en": "Stanford neuroscientist: sleep, light, breath, training",
       "source": "Andrew Huberman, Ph.D. — Huberman Lab Podcast, Stanford School of Medicine; hubermanlab.com",
       "kind": "exemplary",
-      "order": 4,
+      "order": 2,
       "palette": {
         "fill": "E0E8EC",
         "border": "2C4C5F",
