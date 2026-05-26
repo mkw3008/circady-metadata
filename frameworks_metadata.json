@@ -934,7 +934,7 @@
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
+        "cycle_kind": "supercompensation",
         "evidence": "n/a",
         "duration_min": 20
       },
