@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0.0",
-  "data_version": "6.2.2",
+  "data_version": "6.2.3",
   "data_updated": "2026-05-30",
   "name": "circady-frameworks",
   "description_de": "Single source of truth für circady Frameworks-Tab. Treibt App-Browse-Experience und Visualisierungen.",
@@ -1147,12 +1147,12 @@
       "description_en": "Regularly run an extended blood panel and relevant biomarkers.\n\nEarly detection of drift in metabolism, hormones, and inflammation – enable interventions before symptoms appear.\n\nAt least annually, biannually for active optimization. Extended panels including ApoB, Lp(a), hs-CRP, fasting insulin/HbA1c, hormone panel, vitamin D, B12, ferritin. Review and interpret with a physician.",
       "category": "mental",
       "pillar_contributions": {
-        "movement": 5,
-        "mental": 5,
-        "sleep": 5,
+        "movement": 0,
+        "mental": 0,
+        "sleep": 0,
         "social": 0,
         "nutrition": 5,
-        "molecules": 5
+        "molecules": 10
       },
       "timing": {
         "cycle_kind": "periodic",
