@@ -1,10 +1,10 @@
 {
   "schema_version": "5.0.0",
-  "data_version": "6.2.4",
+  "data_version": "6.2.5",
   "data_updated": "2026-05-30",
   "name": "circady-frameworks",
-  "description_de": "Single source of truth für circady Frameworks-Tab. Treibt App-Browse-Experience und Visualisierungen.",
-  "description_en": "Single source of truth for circady's Frameworks tab. Drives the in-app browse experience and visualizations.",
+  "description_de": "Single source of truth für circady Protocol-Tab. Treibt App-Browse-Experience und Visualisierungen.",
+  "description_en": "Single source of truth for circady's Protokolle tab. Drives the in-app browse experience and visualizations.",
   "languages": [
     "de",
     "en"
