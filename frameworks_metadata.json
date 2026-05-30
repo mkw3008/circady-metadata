@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0.0",
-  "data_version": "6.2.0",
-  "data_updated": "2026-05-18",
+  "data_version": "6.2.2",
+  "data_updated": "2026-05-30",
   "name": "circady-frameworks",
   "description_de": "Single source of truth für circady Frameworks-Tab. Treibt App-Browse-Experience und Visualisierungen.",
   "description_en": "Single source of truth for circady's Frameworks tab. Drives the in-app browse experience and visualizations.",
@@ -456,7 +456,7 @@
       },
       "timing": {
         "cycle_kind": "supercompensation",
-        "duration_min": 20,
+        "duration_min": 25,
         "recovery_hours_min": 72,
         "sweet_spot_hours": 84,
         "frequency_per_week_recommended": 2,
@@ -490,10 +490,10 @@
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 15,
-        "recovery_hours_min": 12,
+        "recovery_hours_min": 16,
         "sweet_spot_hours": 24,
-        "frequency_per_week_recommended": 7,
-        "evidence": "estimated"
+        "evidence": "estimated",
+        "frequency_per_week_recommended": 6
       },
       "healthkit_mapping": {
         "source": "workout",
@@ -515,7 +515,7 @@
       "description_en": "Aerobic endurance training just below lactate threshold.\n\nBuild mitochondrial efficiency and cardiovascular base.\n\nConversational pace (~70 % HRmax). 30–60 min per session, 3–4× per week. E.g. brisk walking, easy cycling.",
       "category": "movement",
       "pillar_contributions": {
-        "movement": 25,
+        "movement": 40,
         "mental": 0,
         "sleep": 0,
         "social": 0,
@@ -524,11 +524,11 @@
       },
       "timing": {
         "cycle_kind": "supercompensation",
-        "duration_min": 60,
         "recovery_hours_min": 48,
         "sweet_spot_hours": 56,
         "frequency_per_week_recommended": 3,
-        "evidence": "researched"
+        "evidence": "researched",
+        "duration_min": 50
       },
       "healthkit_mapping": {
         "source": "workout",
@@ -552,7 +552,7 @@
       "description_en": "Integrate movement into daily life instead of \"scheduling\" it.\n\nMaintain constant low-intensity activity throughout the day – like in Blue Zones.\n\nGardening, stairs over elevators, walking or biking instead of driving. Goal: minimize uninterrupted sitting time.",
       "category": "movement",
       "pillar_contributions": {
-        "movement": 30,
+        "movement": 25,
         "mental": 0,
         "sleep": 0,
         "social": 0,
@@ -560,9 +560,12 @@
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
+        "cycle_kind": "supercompensation",
         "evidence": "n/a",
-        "duration_min": 30
+        "duration_min": 30,
+        "frequency_per_week_recommended": 5,
+        "recovery_hours_min": 18,
+        "sweet_spot_hours": 30
       },
       "healthkit_mapping": {
         "source": "workout",
@@ -592,10 +595,10 @@
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 30,
-        "recovery_hours_min": 12,
+        "recovery_hours_min": 16,
         "sweet_spot_hours": 24,
-        "frequency_per_week_recommended": 7,
-        "evidence": "researched"
+        "evidence": "researched",
+        "frequency_per_week_recommended": 6
       },
       "healthkit_mapping": {
         "source": "workout",
@@ -662,7 +665,7 @@
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 60,
-        "recovery_hours_min": 24,
+        "recovery_hours_min": 36,
         "sweet_spot_hours": 36,
         "frequency_per_week_recommended": 3,
         "evidence": "estimated"
@@ -736,7 +739,7 @@
       },
       "timing": {
         "cycle_kind": "supercompensation",
-        "duration_min": 55,
+        "duration_min": 60,
         "recovery_hours_min": 48,
         "sweet_spot_hours": 72,
         "frequency_per_week_recommended": 2,
@@ -769,7 +772,7 @@
       },
       "timing": {
         "cycle_kind": "supercompensation",
-        "duration_min": 55,
+        "duration_min": 60,
         "recovery_hours_min": 48,
         "sweet_spot_hours": 72,
         "frequency_per_week_recommended": 2,
@@ -802,7 +805,7 @@
       },
       "timing": {
         "cycle_kind": "supercompensation",
-        "duration_min": 50,
+        "duration_min": 60,
         "recovery_hours_min": 48,
         "sweet_spot_hours": 72,
         "frequency_per_week_recommended": 2,
@@ -835,7 +838,7 @@
       },
       "timing": {
         "cycle_kind": "supercompensation",
-        "duration_min": 50,
+        "duration_min": 60,
         "recovery_hours_min": 48,
         "sweet_spot_hours": 72,
         "frequency_per_week_recommended": 2,
@@ -903,7 +906,7 @@
         "cycle_kind": "supercompensation",
         "duration_min": 60,
         "recovery_hours_min": 48,
-        "sweet_spot_hours": 56,
+        "sweet_spot_hours": 24,
         "frequency_per_week_recommended": 3,
         "evidence": "researched"
       },
@@ -936,13 +939,17 @@
       "timing": {
         "cycle_kind": "supercompensation",
         "evidence": "n/a",
-        "duration_min": 20
+        "duration_min": 20,
+        "recovery_hours_min": 24,
+        "sweet_spot_hours": 36,
+        "frequency_per_week_recommended": 4
       },
       "healthkit_mapping": {
         "source": "mindful",
         "min_duration_min": 5,
         "write_back": true,
-        "linked_biomarker": null
+        "linked_biomarker": null,
+        "workout_types": []
       }
     },
     {
@@ -961,15 +968,19 @@
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
+        "cycle_kind": "supercompensation",
         "duration_min": 5,
-        "evidence": "researched"
+        "evidence": "researched",
+        "recovery_hours_min": 24,
+        "sweet_spot_hours": 36,
+        "frequency_per_week_recommended": 4
       },
       "healthkit_mapping": {
         "source": "mindful",
         "min_duration_min": 3,
         "write_back": true,
-        "linked_biomarker": "hrvSdnn"
+        "linked_biomarker": "hrvSdnn",
+        "workout_types": []
       }
     },
     {
@@ -1015,7 +1026,10 @@
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
-        "duration_min": 15
+        "duration_min": 15,
+        "frequency_per_week_recommended": 5,
+        "recovery_hours_min": 24,
+        "sweet_spot_hours": 36
       },
       "healthkit_mapping": null
     },
@@ -1035,15 +1049,19 @@
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
+        "cycle_kind": "supercompensation",
         "evidence": "n/a",
-        "duration_min": 10
+        "duration_min": 10,
+        "frequency_per_week_recommended": 6,
+        "recovery_hours_min": 24,
+        "sweet_spot_hours": 24
       },
       "healthkit_mapping": {
         "source": "mindful",
         "min_duration_min": 3,
         "write_back": true,
-        "linked_biomarker": null
+        "linked_biomarker": null,
+        "workout_types": []
       }
     },
     {
@@ -1054,8 +1072,8 @@
       "description_en": "Briefly expose yourself to cold water or cold air.\n\nHormetic stress response: short-term increase in norepinephrine and dopamine, mental clarity, improved resilience.\n\n1–3 min in 10–15 °C water (ice bath, cold plunge) or cold shower. 3–4× per week. Keep breathing controlled. Check with a doctor first if you have cardiovascular conditions or are pregnant.",
       "category": "mental",
       "pillar_contributions": {
-        "movement": 0,
-        "mental": 30,
+        "movement": 10,
+        "mental": 25,
         "sleep": 0,
         "social": 0,
         "nutrition": 0,
@@ -1064,8 +1082,8 @@
       "timing": {
         "cycle_kind": "supercompensation",
         "duration_min": 3,
-        "recovery_hours_min": 24,
-        "sweet_spot_hours": 48,
+        "recovery_hours_min": 18,
+        "sweet_spot_hours": 36,
         "frequency_per_week_recommended": 4,
         "evidence": "Hormesis-Forschung; Huberman-Lab-Synthese"
       },
@@ -1090,8 +1108,8 @@
         "cycle_kind": "supercompensation",
         "duration_min": 20,
         "recovery_hours_min": 24,
-        "sweet_spot_hours": 48,
-        "frequency_per_week_recommended": 7,
+        "sweet_spot_hours": 36,
+        "frequency_per_week_recommended": 5,
         "evidence": "Laukkanen et al. (Sauna-Mortalität, Finnland)"
       },
       "healthkit_mapping": null
@@ -1113,7 +1131,11 @@
       },
       "timing": {
         "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "evidence": "n/a",
+        "duration_min": 30,
+        "recovery_hours_min": 24,
+        "sweet_spot_hours": 36,
+        "frequency_per_week_recommended": 4
       },
       "healthkit_mapping": null
     },
@@ -1125,16 +1147,19 @@
       "description_en": "Regularly run an extended blood panel and relevant biomarkers.\n\nEarly detection of drift in metabolism, hormones, and inflammation – enable interventions before symptoms appear.\n\nAt least annually, biannually for active optimization. Extended panels including ApoB, Lp(a), hs-CRP, fasting insulin/HbA1c, hormone panel, vitamin D, B12, ferritin. Review and interpret with a physician.",
       "category": "mental",
       "pillar_contributions": {
-        "movement": 0,
-        "mental": 20,
-        "sleep": 0,
+        "movement": 5,
+        "mental": 5,
+        "sleep": 5,
         "social": 0,
-        "nutrition": 0,
-        "molecules": 0
+        "nutrition": 5,
+        "molecules": 5
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "periodic",
+        "evidence": "n/a",
+        "frequency_per_year_recommended": 2,
+        "recovery_hours_min": 4380,
+        "sweet_spot_hours": 730
       },
       "healthkit_mapping": null
     },
@@ -1154,15 +1179,19 @@
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
+        "cycle_kind": "supercompensation",
         "evidence": "n/a",
-        "duration_min": 480
+        "duration_min": 480,
+        "recovery_hours_min": 5100,
+        "sweet_spot_hours": 700,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": {
         "source": "sleep",
         "min_duration_min": 240,
         "write_back": false,
-        "linked_biomarker": null
+        "linked_biomarker": null,
+        "workout_types": []
       }
     },
     {
@@ -1175,20 +1204,25 @@
       "pillar_contributions": {
         "movement": 0,
         "mental": 0,
-        "sleep": 10,
+        "sleep": 15,
         "social": 0,
         "nutrition": 0,
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 480,
+        "recovery_hours_min": 5100,
+        "sweet_spot_hours": 700,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": {
         "source": "sleep",
         "min_duration_min": 120,
         "write_back": false,
-        "linked_biomarker": "sleepDurationHours"
+        "linked_biomarker": "sleepDurationHours",
+        "workout_types": []
       }
     },
     {
@@ -1201,15 +1235,18 @@
       "pillar_contributions": {
         "movement": 0,
         "mental": 0,
-        "sleep": 35,
+        "sleep": 30,
         "social": 0,
         "nutrition": 0,
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
+        "cycle_kind": "periodic",
         "evidence": "n/a",
-        "duration_min": 480
+        "duration_min": 480,
+        "frequency_per_week_recommended": 7,
+        "recovery_hours_min": 5100,
+        "sweet_spot_hours": 700
       },
       "healthkit_mapping": null
     },
@@ -1223,21 +1260,25 @@
       "pillar_contributions": {
         "movement": 0,
         "mental": 0,
-        "sleep": 50,
+        "sleep": 45,
         "social": 0,
         "nutrition": 0,
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
+        "cycle_kind": "supercompensation",
         "evidence": "n/a",
-        "duration_min": 480
+        "duration_min": 480,
+        "recovery_hours_min": 5100,
+        "sweet_spot_hours": 700,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": {
         "source": "sleep",
         "min_duration_min": 420,
         "write_back": false,
-        "linked_biomarker": "sleepDurationHours"
+        "linked_biomarker": "sleepDurationHours",
+        "workout_types": []
       }
     },
     {
@@ -1258,13 +1299,17 @@
       "timing": {
         "cycle_kind": "continuous",
         "evidence": "n/a",
-        "duration_min": 540
+        "duration_min": 540,
+        "recovery_hours_min": 5100,
+        "sweet_spot_hours": 700,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": {
         "source": "sleep",
         "min_duration_min": 480,
         "write_back": false,
-        "linked_biomarker": "sleepDurationHours"
+        "linked_biomarker": "sleepDurationHours",
+        "workout_types": []
       }
     },
     {
@@ -1283,8 +1328,12 @@
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "frequency_per_week_recommended": 7,
+        "duration_min": 10,
+        "recovery_hours_min": 24,
+        "sweet_spot_hours": 12
       },
       "healthkit_mapping": null
     },
@@ -1297,7 +1346,7 @@
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
-        "mental": 0,
+        "mental": 5,
         "sleep": 0,
         "social": 30,
         "nutrition": 0,
@@ -1318,7 +1367,7 @@
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
-        "mental": 0,
+        "mental": 10,
         "sleep": 0,
         "social": 45,
         "nutrition": 0,
@@ -1360,7 +1409,7 @@
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
-        "mental": 0,
+        "mental": 5,
         "sleep": 0,
         "social": 30,
         "nutrition": 15,
@@ -1381,7 +1430,7 @@
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
-        "mental": 0,
+        "mental": 5,
         "sleep": 0,
         "social": 25,
         "nutrition": 0,
@@ -1405,7 +1454,7 @@
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
-        "mental": 0,
+        "mental": 5,
         "sleep": 0,
         "social": 20,
         "nutrition": 0,
@@ -1426,9 +1475,9 @@
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
-        "mental": 0,
+        "mental": 5,
         "sleep": 0,
-        "social": 45,
+        "social": 40,
         "nutrition": 0,
         "molecules": 0
       },
@@ -1447,7 +1496,7 @@
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
-        "mental": 0,
+        "mental": 5,
         "sleep": 0,
         "social": 30,
         "nutrition": 0,
@@ -1538,8 +1587,11 @@
         "molecules": 0
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "recovery_hours_min": 16,
+        "sweet_spot_hours": 16,
+        "frequency_per_week_recommended": 6
       },
       "healthkit_mapping": null
     },
@@ -1581,7 +1633,7 @@
       },
       "timing": {
         "cycle_kind": "supercompensation",
-        "recovery_hours_min": 12,
+        "recovery_hours_min": 16,
         "sweet_spot_hours": 12,
         "frequency_per_week_recommended": 7,
         "evidence": "estimated"
@@ -1618,7 +1670,7 @@
       "category": "social",
       "pillar_contributions": {
         "movement": 0,
-        "mental": 0,
+        "mental": 5,
         "sleep": 0,
         "social": 25,
         "nutrition": 20,
@@ -1859,11 +1911,15 @@
         "sleep": 0,
         "social": 0,
         "nutrition": 0,
-        "molecules": 15
+        "molecules": 20
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "frequency_per_week_recommended": 7,
+        "duration_min": 5,
+        "sweet_spot_hours": 8,
+        "recovery_hours_min": 20
       },
       "healthkit_mapping": null
     },
@@ -1883,8 +1939,12 @@
         "molecules": 15
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7,
+        "duration_min": 5
       },
       "healthkit_mapping": null
     },
@@ -1904,8 +1964,12 @@
         "molecules": 10
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -1922,11 +1986,15 @@
         "sleep": 0,
         "social": 0,
         "nutrition": 0,
-        "molecules": 45
+        "molecules": 50
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -1943,11 +2011,15 @@
         "sleep": 0,
         "social": 0,
         "nutrition": 0,
-        "molecules": 30
+        "molecules": 25
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -1964,11 +2036,15 @@
         "sleep": 0,
         "social": 0,
         "nutrition": 0,
-        "molecules": 30
+        "molecules": 20
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -1988,8 +2064,12 @@
         "molecules": 25
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -2006,11 +2086,15 @@
         "sleep": 0,
         "social": 0,
         "nutrition": 0,
-        "molecules": 30
+        "molecules": 25
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -2027,11 +2111,15 @@
         "sleep": 0,
         "social": 0,
         "nutrition": 0,
-        "molecules": 25
+        "molecules": 20
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -2051,8 +2139,12 @@
         "molecules": 20
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -2069,11 +2161,15 @@
         "sleep": 0,
         "social": 0,
         "nutrition": 0,
-        "molecules": 25
+        "molecules": 20
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -2093,8 +2189,12 @@
         "molecules": 20
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -2114,8 +2214,12 @@
         "molecules": 20
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -2136,7 +2240,11 @@
       },
       "timing": {
         "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -2153,11 +2261,15 @@
         "sleep": 0,
         "social": 0,
         "nutrition": 0,
-        "molecules": 20
+        "molecules": 15
       },
       "timing": {
         "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -2177,8 +2289,12 @@
         "molecules": 15
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -2195,11 +2311,15 @@
         "sleep": 0,
         "social": 0,
         "nutrition": 0,
-        "molecules": 25
+        "molecules": 20
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
@@ -2219,8 +2339,12 @@
         "molecules": 20
       },
       "timing": {
-        "cycle_kind": "continuous",
-        "evidence": "n/a"
+        "cycle_kind": "supercompensation",
+        "evidence": "n/a",
+        "duration_min": 5,
+        "recovery_hours_min": 20,
+        "sweet_spot_hours": 8,
+        "frequency_per_week_recommended": 7
       },
       "healthkit_mapping": null
     },
